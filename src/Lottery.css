@@ -1,0 +1,38 @@
+/* FULL HEIGHT FIX */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* BODY CENTER */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN CONTAINER */
+#center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* TICKET NUMBERS */
+.ticket {
+  display: flex;
+  gap: 20px;
+  font-size: 50px;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
