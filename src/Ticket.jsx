@@ -1,9 +1,5 @@
-import TicketNum from "./TicketNum"
+import './TicketNum.css';
 
-export default function Ticket(ticket) {
-     return (
-        <div>
-  <TicketNum num={ticket[0]}/>
-        </div>
-     )
+export default function TicketNum({ num }) {
+  return <span className="TicketNum">{num}</span>;
 }
