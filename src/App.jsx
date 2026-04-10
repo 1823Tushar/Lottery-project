@@ -1,19 +1,25 @@
 import './App.css'
-import LudoBoard from "./LudoBoard";
-import TodoList from './Todo';
+
 import Lottery from './Lottery';
-import './TicketNum.css';
-import TicketNum from './TicketNum';
+
+import { sum } from './helper';
 
 
 function App() {
-  return <>
-(
-<TicketNum num={5} />
-<TicketNum num={5} />
-<TicketNum num={5} />
+
+  let winCondition = (ticket) => {
+   return  ticket.every((num) => num === ticket[0]);
+  };
+  return (
+   
+    
+<div>
+      <Lottery  n={3}  winCondition={winCondition} />
+    </div>
+    
+
   );
-  </>
+
 }
 
 export default App;
