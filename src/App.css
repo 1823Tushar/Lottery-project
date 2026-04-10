@@ -3,7 +3,11 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+<<<<<<< HEAD
   background-color: #b39c9c;
+=======
+  background-color: #000;
+>>>>>>> 531afc4704c7e47ec9efe58867a3c6357af5594d
   margin: 0;
   width: 100%;
 }
