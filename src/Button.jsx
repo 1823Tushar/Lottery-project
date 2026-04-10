@@ -1,3 +1,7 @@
-export default function Bitton({action}) {
-  return <button onClick={action}>Buy New Ticket</button>
+export default function Button({ action }) {
+  return (
+    <button onClick={action} className="btn">
+      Buy New Ticket
+    </button>
+  );
 }

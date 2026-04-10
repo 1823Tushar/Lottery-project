@@ -10,3 +10,22 @@
   text-align: center;
   line-height: 1;
 }
+
+.num {
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 12px;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+}
+
+.num:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.15);
+}

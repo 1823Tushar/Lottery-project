@@ -1,6 +1,24 @@
 .Ticket {
-    border: 1px solid pink;
-    border-radius:14px;
-    width: 300px;
-    margin-bottom: 15px;
+  border: 2px solid #ff6ec7;
+  border-radius: 16px;
+  width: fit-content;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 25px rgba(255, 110, 199, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.Ticket p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.ticket {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+  overflow-x: auto;  
 }
